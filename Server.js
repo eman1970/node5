@@ -38,7 +38,7 @@ function isAuthenticated(request, response, next) {
 }
 
 if (process.env.NODE_ENV === "PRODUCTION") {
-app.use(express,static(client/build))
+app.use(express.static("client/build"))
 }
 
 Configurations.connectToDatabase()
