@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node Server.js",
     "test": "mocha 'tests/**'",
     "dev": "npx nodemon Server.js",
     "build": "cd client && npm run build",
