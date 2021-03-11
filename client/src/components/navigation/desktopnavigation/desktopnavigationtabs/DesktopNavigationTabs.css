@@ -1,0 +1,23 @@
+.ulTabsWrapper {
+
+    list-style-type: none;
+    width: 100%;
+}
+
+.liTabs {
+display: block;
+cursor: pointer;
+color: #000000;
+font-weight: 1000;
+font-family: 'Roboto', sans-serif;
+padding: 6%;
+
+}
+
+
+@media screen and (min-width: 480px) {
+    .liTabs {
+        display: inline;
+       
+    }
+  }

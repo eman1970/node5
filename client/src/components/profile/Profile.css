@@ -1,0 +1,32 @@
+.profileImg {
+width: 50px;
+border-radius: 50%;
+
+}
+
+     .profileWrapper {
+        position: relative;
+        display: inline-block;
+         
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #9b9393;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+      
+      .profileWrapper:hover .dropdown-content  {
+        display: block;
+   
+      }
+
+      #username {
+        position: absolute;
+        margin-top: 0;
+        margin-left: 53px;
+      }
