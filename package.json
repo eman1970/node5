@@ -9,7 +9,7 @@
     "dev": "npx nodemon Server.js",
     "build": "cd client && npm run build",
     "install-client": "cd client && npm install",
-    "heroku-postbuild": "npm install-client && npm run build"
+    "heroku-postbuild": "npm run install-client && npm run build"
   },
   "keywords": [
     "RestAPI",
