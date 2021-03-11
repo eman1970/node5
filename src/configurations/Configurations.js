@@ -16,7 +16,7 @@ const connectToDatabase = async () => {
 }
 
 const connectToPort = (app) => {
-    const port = process.env.PORT || 8080
+    const port = process.env.PORT || 3002
     app.listen(port, () => {
         console.log(`Servern är igång på port ${port}`)
     })
